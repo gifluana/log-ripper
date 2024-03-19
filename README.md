@@ -20,7 +20,7 @@ The Log Ripper is a Python script that allows you to extract usernames from Twit
     
     Replace `'user1,user2,user3'` with a comma-separated list of usernames that you want the script to ignore and not include in the results. This can be useful if you want to exclude certain users from the analysis.
 
-4. The script will process the chat logs and generate a list of usernames that meet the specified criteria. The results will be displayed in the terminal or command prompt.
+4. The script will process the chat logs and generate a list of usernames that meet the specified criteria. The results will be outputted in the same folder you ran the script in a `output.txt`
 
 ## Example
 To search for messages containing the words "hello" and "world" and exclude the usernames "user1" and "user2", you would run the following command:
