@@ -24,6 +24,6 @@ The Log Ripper is a Python script that allows you to extract usernames from Twit
 ## Example
 To search for messages containing the words "hello" and "world" and exclude the usernames "user1" and "user2", you would run the following command:
 
-    ```bash
-    python ripper.py 'hello,world' 'user1,user2'
-    ```
+```bash
+python ripper.py 'hello,world' 'user1,user2'
+```
