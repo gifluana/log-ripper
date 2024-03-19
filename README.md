@@ -1,15 +1,16 @@
 # Log Ripper
 
 ## Description
-The Log Ripper is a Python script that allows you to extract usernames from Twitch chat logs based on specific criteria. It can be useful for analyzing chat activity or identifying users who have sent messages containing certain keywords.
+The Log Ripper is a Python script that allows you to extract usernames from Twitch chat logs created from Chatterino based on specific criteria. It can be useful for analyzing chat activity or identifying users who have sent messages containing certain keywords.
 
 ## Prerequisites
-- Python 3.x installed on your system
+- Python 3.x installed on your system.
+- Any Chatterino log file.
 
 ## Usage
-1. Clone or download the repository to your local machine.
-2. Open a terminal or command prompt and navigate to the project directory.
-3. Run the script using the following command:
+1. Clone or download the repository to your pc.
+2. Move ripper.py to the log folder you want to rip usernames (make sure to have a separated folder to run the script).
+3. Run a CMD inside the folder and run the script using the following command:
 
     ```bash
     python ripper.py 'word1,word2,word3' 'user1,user2,user3'
